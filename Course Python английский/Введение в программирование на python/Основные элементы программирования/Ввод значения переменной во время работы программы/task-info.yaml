@@ -1,0 +1,38 @@
+type: theory
+files:
+- name: __init__.py
+  visible: false
+  learner_created: false
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 7
+    length: 78
+    placeholder_text: "input()  # TODO добавьте вспомогательное сообщение в input"
+    initial_state:
+      length: 58
+      offset: 7
+    initialized_from_dependency: false
+    selected: true
+    status: Solved
+    encrypted_possible_answer: "...  # input(\"Введите имя:\")"
+  - offset: 109
+    length: 39
+    placeholder_text: '# TODO распечатайте тип переменной name'
+    initial_state:
+      length: 39
+      offset: 89
+    initialized_from_dependency: false
+    selected: false
+    status: Solved
+    encrypted_possible_answer: "print(type(name))  # type позволяет получить тип п\
+      еременной"
+  text: |
+    name = input()  # TODO добавьте вспомогательное сообщение в input
+    print("Hello,", name)
+
+    # TODO распечатайте тип переменной name
+  learner_created: false
+status: Solved
+record: -1
+post_submission_on_open: true

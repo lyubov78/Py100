@@ -1,0 +1,40 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 0
+    length: 70
+    placeholder_text: |-
+      # TODO Исправьте код, чтобы избавиться от ошибки
+      print(Hello, World)
+    initial_state:
+      length: 68
+      offset: 0
+    initialized_from_dependency: false
+    selected: true
+    status: Solved
+    encrypted_possible_answer: "print(\"Hello, World\")"
+  text: |
+    # TODO Исправьте код, чтобы избавиться от ошибки
+    print(Hello, World)
+  learner_created: false
+- name: __init__.py
+  visible: false
+  learner_created: false
+- name: tests/output.txt
+  visible: false
+  text: |
+    Hello, World
+  learner_created: false
+- name: img.png
+  visible: false
+  learner_created: false
+- name: img_1.png
+  visible: false
+  learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 08 Oct 2023 16:14:34 UTC"
+record: -1

@@ -1,0 +1,23 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: 1
+- text: 2
+- text: 3
+files:
+- name: task.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+status: Solved
+feedback:
+  message: <html>В этом примере смешались отступы разной длины. Интерпретатор python
+    не может понять на какое количество пробелов ему ориентироваться. В таком коде
+    даже визуально сложно провести границы.</html>
+  time: "Sun, 08 Oct 2023 16:21:40 UTC"
+record: -1
+selected_options:
+- 2
+local_check: false

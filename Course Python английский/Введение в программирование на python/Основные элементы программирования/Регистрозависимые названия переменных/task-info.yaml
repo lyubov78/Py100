@@ -1,0 +1,33 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 29
+    length: 4
+    placeholder_text: "Foo)  # TODO исправить название переменной"
+    initial_state:
+      length: 42
+      offset: 29
+    initialized_from_dependency: false
+    selected: false
+    status: Solved
+    encrypted_possible_answer: foo)
+  text: |
+    foo = "Hello, World!"
+
+    print(Foo)  # TODO исправить название переменной
+  learner_created: false
+- name: __init__.py
+  visible: false
+  learner_created: false
+- name: tests/output.txt
+  visible: false
+  text: |
+    Hello, World!
+  learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 08 Oct 2023 17:11:17 UTC"
+record: -1

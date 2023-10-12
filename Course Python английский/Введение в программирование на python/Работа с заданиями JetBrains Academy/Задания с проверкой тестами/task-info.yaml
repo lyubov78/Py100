@@ -1,0 +1,56 @@
+type: edu
+files:
+- name: task.py
+  visible: true
+  placeholders:
+  - offset: 101
+    length: 95
+    placeholder_text: |-
+      # TODO Установите количество отствупов равным одному
+      print("Hello")
+              print("World")
+              print("!!!")
+    initial_state:
+      length: 111
+      offset: 101
+    initialized_from_dependency: false
+    selected: true
+    status: Unchecked
+    encrypted_possible_answer: |-
+      print("Hello")
+          print("World")
+          print("!!!")
+  text: |
+    def main():
+        """ def main(): - это объявление функции, с ними вы будете знакомиться позже."""
+        # TODO Установите количество отствупов равным одному
+    print("Hello")
+            print("World")
+            print("!!!")
+  learner_created: false
+- name: tests/test_task.py
+  visible: false
+  text: |
+    import unittest
+
+
+    class TestCase(unittest.TestCase):
+        def test_check_indentation(self):
+            try:
+                from task import main
+            except IndentationError as e:
+                raise AssertionError(
+                    "Проверьте, что все инструкции внутри функции установлены на уровне одного отступа."
+                ) from e
+  learner_created: false
+- name: __init__.py
+  visible: false
+  learner_created: false
+- name: tests/__init__.py
+  visible: false
+  learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 08 Oct 2023 16:18:55 UTC"
+record: -1

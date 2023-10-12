@@ -1,0 +1,21 @@
+type: theory
+files:
+- name: __init__.py
+  visible: false
+  learner_created: false
+- name: img.png
+  visible: false
+  learner_created: false
+- name: img_2.png
+  visible: false
+  learner_created: false
+- name: main.py
+  visible: true
+  text: |
+    print("Hello, World")
+  learner_created: false
+status: Solved
+feedback:
+  time: "Sun, 08 Oct 2023 16:03:29 UTC"
+record: -1
+post_submission_on_open: true
